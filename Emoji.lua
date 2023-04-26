@@ -142,11 +142,16 @@ local emoji = {
 	{["Name"] = ":speech balloon:",		["Emoji"] = "💬"},
 }
 function emoji:EmojiReplace(str)
-	for _,v in pairs(emoji) do
-		if string.find(str, v["Name"]) then
-			string.gsub(str,v["Name"],v["Emoji"])
+	str = tostring(str)
+	if not  str:find(":") then
+		return str
+	else
+		for _,v in pairs(emoji) do
+			if str:find(v["Name"]) then
+				str = string.gsub(str,v["Name"],v["Emoji"])
+			end
 		end
-	end
-	return 
+		return str
+	end 
 end
 return emoji
