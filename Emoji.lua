@@ -143,12 +143,12 @@ local emoji = {
 }
 function emoji:EmojiReplace(str)
 	str = tostring(str)
-	if not  str:find(":") then
+	if not str:find(":") then
 		return str
 	else
-		for _,v in pairs(emoji) do
-			if str:find(v["Name"]) then
-				str = string.gsub(str,v["Name"],v["Emoji"])
+		for I = 1, #emoji do
+			if string.find(str,emoji[I]["Name"]) then
+				str = string.gsub(str,emoji[I]["Name"],emoji[I]["Emoji"])
 			end
 		end
 		return str
