@@ -139,6 +139,7 @@ local emoji = {
 	{["Name"] = ":nazar amulet:",				["Emoji"] = "🧿"},
 	{["Name"] = ":warning:",					["Emoji"] = "⚠"},
 	{["Name"] = ":input latin uppercase:",		["Emoji"] = "🔠"},
+	{["Name"] = ":speech balloon:",		["Emoji"] = "💬"},
 }
 function emoji:EmojiReplace(str)
 	for _,v in pairs(emoji) do
