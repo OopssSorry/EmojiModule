@@ -119,7 +119,7 @@ local emoji = {
 	{["Name"] = ":dollar banknote:",			["Emoji"] = "💵"},
 	{["Name"] = ":money with wings:",			["Emoji"] = "💸"},
 	{["Name"] = ":credit card:",				["Emoji"] = "💳"},
-	{["Name"] = ":envelope:",					["Emoji"] = "✉	"},
+	{["Name"] = ":envelope:",					["Emoji"] = "✉"},
 	{["Name"] = ":package:",					["Emoji"] = "📦"},
 	{["Name"] = ":briefcase:",					["Emoji"] = "💼"},
 	{["Name"] = ":file folder:",				["Emoji"] = "📁	"},
