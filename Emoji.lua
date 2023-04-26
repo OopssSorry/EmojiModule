@@ -2,7 +2,7 @@ local emoji = {
 	{["Name"] = ":eyes:",						["Emoji"] = "👀"},
 	{["Name"] = ":eye:",						["Emoji"] = "👁"},
 	{["Name"] = ":speaking head:",				["Emoji"] = "🗣"},
-	{["Name"] = ":bust in silhouette:",			["Emoji"] = "👥"},
+	{["Name"] = ":bust in silhouette:",			["Emoji"] = "👤"},
 	{["Name"] = ":busts in silhouette:",		["Emoji"] = "👥"},
 	{["Name"] = ":dog face:",					["Emoji"] = "🐶"},
 	{["Name"] = ":cat face:",					["Emoji"] = "🐱"},
